@@ -10,3 +10,6 @@ dependencies = [
     "puremagic>=1.30",
     "python-magic>=0.4.27",
 ]
+
+[project.scripts]
+audio_val = "audio_file_val:cli"
