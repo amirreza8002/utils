@@ -1,5 +1,5 @@
 [project]
-name = "file-check"
+name = "utils"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -12,4 +12,8 @@ dependencies = [
 ]
 
 [project.scripts]
-audio_val = "audio_file_val:cli"
+file_val = "utils.file_val:cli"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
