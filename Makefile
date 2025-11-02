@@ -4,3 +4,4 @@ install:
 	  uv pip install -e .
 		mkdir ~/.local/bin -p
 		ln -sf ${mkfile_path}/.venv/bin/file_val ~/.local/bin
+		ln -sf ${mkfile_path}/.venv/bin/api_client ~/.local/bin
